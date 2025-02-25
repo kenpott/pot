@@ -1,0 +1,6 @@
+.footer-card {
+    > p:hover {
+        color:rgba(255, 255, 255);
+        transition: 0.5s ease;
+    }
+}

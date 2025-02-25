@@ -1,0 +1,37 @@
+.FAQ-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5em;
+}
+
+.FAQ-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 1.5px solid #ffffff19;
+    padding: 1em;
+    width: 40em;
+}
+
+.FAQ-card-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.FAQ-card-header button {
+    all: unset;
+    background-color: transparent;
+}
+
+.img.active {
+    src: url(../../assets/down-arrow.svg);
+}
+
+.FAQ-card-content {
+    display: none;
+}
+
+.FAQ-card-content.active {
+    display: flex;
+}

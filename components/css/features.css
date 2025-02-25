@@ -1,0 +1,25 @@
+.features-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+    gap: 5em;
+}
+
+.card {
+    display: flex;
+    width: 20em;
+    flex-direction: column;
+    background-color: #111111;
+    border: 1.5px solid #ffffff19;
+    border-radius: 0.5em;
+    padding: 1em;
+    /* Placeholder for image */
+    padding-top: 20em;
+    /* */
+    transition: 1.0s;
+}
+
+.card:hover {
+    scale: 1.05;
+    transition: 0.75s;
+}

@@ -1,0 +1,101 @@
+.hero {
+	display: flex;
+	flex-direction: column;
+	width: calc(100% - 4em);
+	max-width: 33em;
+	padding-top: 12em;
+	margin: 0 auto;
+	text-align: center;
+	gap: 2em;
+    margin-bottom: 5em;
+
+	> p {
+		max-width: 31rem;
+		font-size: 1.25em;
+		margin: 0 auto;
+	}
+
+    > .hero-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 0.5em
+    } 
+}
+
+.button {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1.5px solid #ffffff19;
+    border-radius: 0.5em;
+    padding: 0.75em;
+}
+
+.button-1 {
+    background-color: rgba(255, 255, 255);
+    color:#000000;
+    border: 1.5px solid #ffffff19;
+    border-radius: 0.5em;
+    padding: 0.75em;
+}
+
+.button-2 {
+    transition: background-color 1.0s;
+}
+
+.button-2:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: 1.0s;
+}
+
+.preview {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10em;
+    opacity: 0.1;
+    
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10em;
+    
+}
+
+.FAQ {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 10em;
+    gap: 1em;
+    
+    > h2 {
+        margin-bottom: 1em;
+    }
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20em;
+    margin: 5em 0 5em 0;
+    padding-top: 5em;
+    border-top: 1.5px solid #ffffff19;
+    
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: row;
+    gap: 5em;
+}
