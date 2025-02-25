@@ -1,6 +1,6 @@
-@import url(../components/css/faq.css);
-@import url(../components/css/features.css);
-@import url(../components/css/footer.css);
-@import url(../components/css/navbar.css);
-@import url(/src/css/index.css);
-@import url(/src/css/main.css);
+@import url(components\css\faq.css);
+@import url(components\css\features.css);
+@import url(components\css\footer.css);
+@import url(components\css\navbar.css);
+@import url(src\css\index.css);
+@import url(src\css\main.css);
